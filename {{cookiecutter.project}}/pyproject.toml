@@ -4,7 +4,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dicekit"
+name = "{{cookiecutter.project}}"
 version = "0.1.0"
 description="Domain specific environment for dice"
 
@@ -25,9 +25,9 @@ dependencies = [
 ]
 
 [project.urls]
-repository = "https://github.com/koaning/mohtml"
-issue-tracker = "https://github.com/koaning/mohtml/issues"
-documentation = "https://koaning.github.io/mohtml/"
+repository = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project}}"
+issue-tracker = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project}}/issues"
+documentation = "https://{{cookiecutter.github_user}}.github.io/{{cookiecutter.project}}/"
 
 [tool.setuptools.packages.find]
 include = ["{{cookiecutter.project}}*"]
