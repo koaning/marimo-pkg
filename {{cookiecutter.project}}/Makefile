@@ -13,3 +13,6 @@ pypi:
 
 check:
 	python -m pytest
+
+clean:
+	rm -rf {{cookiecutter.project}}.egg-info

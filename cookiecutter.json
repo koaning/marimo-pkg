@@ -1,4 +1,7 @@
 {
     "project": "",
-    "github_user": ""
+    "github_user": "",
+    "_copy_without_render": [
+        "*.yml"
+    ]
 }
