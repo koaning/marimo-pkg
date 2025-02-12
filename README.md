@@ -4,6 +4,10 @@
 
 > Sometimes a Marimo notebook is all you need to build a simple Python package. This project contains a cookiecutter to help you set those projects up.
 
+### Command 
+
+To get started, you can run this cookiecutter command locally. 
+
 ```
 uv run --with cookiecutter cookiecutter https://github.com/koaning/marimo-pkg
 ```
