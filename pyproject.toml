@@ -21,7 +21,7 @@ classifiers = [
 ]
 
 dependencies = [
-    "altair", "pandas", "marimo"
+    "marimo"
 ]
 
 [project.urls]
@@ -33,7 +33,7 @@ documentation = "https://koaning.github.io/mohtml/"
 include = ["{{cookiecutter.project}}*"]
 exclude = [
     "docs",
-    "images",
-    "notebooks",
+    "imgs",
+    "nbs",
     "tests",
 ]
