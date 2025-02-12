@@ -4,6 +4,10 @@
 
 > Explainer of the project
 
+```
+uv run --with cookiecutter cookiecutter https://github.com/koaning/marimo-pkg
+```
+
 ## Install
 
 ```bash
